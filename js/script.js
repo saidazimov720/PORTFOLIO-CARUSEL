@@ -53,6 +53,6 @@
         range: [0, 3],
         rangeContent: function() {
             return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>'
-        }
+        },
     })
 })
