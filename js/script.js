@@ -12,5 +12,12 @@
             transform: [{scale: [0.4, 1]}],
             opacity:[0, 1]
         },
-    })
+    });
+
+    var titles = [
+        'King of the Ring fight' , 
+        'Sound of Streets' , 
+        'Urban Fashion', 
+        'Windly sunset'
+    ]
 })
