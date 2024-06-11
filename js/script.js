@@ -1,7 +1,7 @@
 (function(){
     var slidersContainer = document.querySelector('.slider-container');
     
-    var msNumbers = new momentumSliderMin({
+    var msNumbers = new MomentumSliderMin({
         el: slidersContainer, 
         cssClass: 'ms--numbers',
         range: [1, 4],
@@ -20,7 +20,7 @@
         'Urban Fashion', 
         'Windly sunset'
     ];
-    mstitles = momentumSlider({
+    mstitles = MomentumSlider({
         el: slidersContainer, 
         cssClass: 'ms--titles', 
         range: [0, 3],
@@ -34,5 +34,14 @@
         },
         interactive: false
     });
-    
+    var  msLinks = new MomentumSlider({
+        el: slidersContainer,
+        cssClass: 'ms--links',
+        range: [0, 3], 
+        rangeContent: function() {
+            return '<a class="ms-slide_link">View Case</a>';
+        },
+        vertical: true,
+        interactive: false
+    });
 })
