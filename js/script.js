@@ -68,4 +68,11 @@
             paginationItems[newIndex].classList.add('pagination__item--active');
         }
     });
-})
+
+    pagination.addEventListener('click', function(e) {
+        if (e.target.matches('.pagination__button')) {
+            var index  = paginationItems.indexOf(e.target.parentMode);
+            msImages.select(index);
+        }
+    });
+});
