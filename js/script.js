@@ -44,4 +44,15 @@
         vertical: true,
         interactive: false
     });
+
+    var pagination = document.querySelector('.pagination');
+    var paginationItems = [].slice.call(pagination.children);
+    var msImages = new MomentumSlider({
+        el: slidersContainer,
+        cssClass: 'ms--images', 
+        range: [0, 3],
+        rangeContent: function() {
+            return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>'
+        }
+    })
 })
