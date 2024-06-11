@@ -19,5 +19,20 @@
         'Sound of Streets' , 
         'Urban Fashion', 
         'Windly sunset'
-    ]
+    ];
+    mstitles = momentumSlider({
+        el: slidersContainer, 
+        cssClass: 'ms--titles', 
+        range: [0, 3],
+        rangeContent: function(i){
+            return '<h3>' + titles[i] + '</h3>';
+        },
+        vertical: true, 
+        reverse: true, 
+        style: {
+            opacity: [0, 1]
+        },
+        interactive: false
+    });
+    
 })
