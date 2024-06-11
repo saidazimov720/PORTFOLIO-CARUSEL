@@ -54,5 +54,18 @@
         rangeContent: function() {
             return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>'
         },
-    })
+
+        sync: [msNumbers, msTitles, msLinks], 
+        style: {
+            '.ms-slide_image': {
+                transform: [{scale: [1.5, 1]}]
+            }
+        },
+        change: function(newIndex, oldIndex){
+            if(typeof oldIndex !== 'undefined'){
+                paginationItems[oldIndex].classList.remove('pagination__item--active');
+            }
+            paginationItems[newIndex].classList.add('pagination__item--active');
+        }
+    });
 })
