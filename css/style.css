@@ -25,3 +25,14 @@
     margin: 0;
     list-style: none;
 }
+
+.ms--images .ms-slide{
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
