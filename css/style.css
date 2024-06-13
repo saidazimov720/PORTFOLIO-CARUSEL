@@ -89,7 +89,7 @@
     display: inline-flex;
   }
 
-  .ms-numbers .ms-track{
+  .ms--numbers .ms-track{
     display: flex;
     position: absolute;
     white-space: nowrap;
@@ -97,4 +97,14 @@
     margin: 0;
     list-style: none;
   }
-  
+
+.ms--numbers .ms-slide{
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
