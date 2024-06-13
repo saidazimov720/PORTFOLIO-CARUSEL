@@ -127,3 +127,8 @@ width: 400px;
 height: 170px;
 max-height: 100%;
 }
+
+.ms--titles .ms--container-vertical .ms-track{
+    flex-direction: column;
+    top: calc(50% - 85px);
+}
