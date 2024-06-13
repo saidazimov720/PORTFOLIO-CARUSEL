@@ -108,3 +108,11 @@
       -ms-user-select: none;
           user-select: none;
 }
+
+.ms--numbers{
+    position: absolute;
+    left: calc(50% - 380px);
+    top: calc(50% - 300px);
+    z-index: -1;
+    pointer-events: none;
+}
