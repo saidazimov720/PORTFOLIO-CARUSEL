@@ -57,4 +57,27 @@
     background-image: url(../media/jurica-koletic-321003-unsplash.jpg);
   }
 
+  .ms--images .ms-slide_image-container{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .ms--images .ms-slide_image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .ms-numbers{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ms--numbers.ms--images.ms-container--horizontal{
+    width: 240px;
+    height: 240px;
+    max-width: 100%;
+  }
   
