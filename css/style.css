@@ -117,7 +117,13 @@
     pointer-events: none;
 }
 
-ms.titles{
+.ms--titles{
     position: relative;
     overflow: hidden;
+}
+
+.ms--titles .ms--container-vertical{
+width: 400px;
+height: 170px;
+max-height: 100%;
 }
