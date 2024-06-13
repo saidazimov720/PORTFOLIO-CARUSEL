@@ -88,3 +88,13 @@
   .ms--numbers.ms-container--horizontal .ms-slide{
     display: inline-flex;
   }
+
+  .ms-numbers .ms-track{
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
