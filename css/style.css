@@ -47,3 +47,14 @@
   .ms--images .ms-slide:nth-child(1) .ms-slide_image{
     background-image: url(../media/harvey-gibson-498362-unsplash.jpg);
   }
+  .ms--images .ms-slide:nth-child(2) .ms-slide_image{
+    background-image: url(../media/andre-hunter-461305-unsplash.jpg);
+  }
+  .ms--images .ms-slide:nth-child(3) .ms-slide_image{
+    background-image: url(../media/joanna-nix-389128-unsplash.jpg);
+  }
+  .ms--images .ms-slide:nth-child(4) .ms-slide_image{
+    background-image: url(../media/jurica-koletic-321003-unsplash.jpg);
+  }
+
+  
