@@ -43,4 +43,7 @@
   .ms--images .ms--images.ms-container--horizontal .ms-track{
     left: -70px;
   }
-  
+
+  .ms--images .ms-slide:nth-child(1) .ms-slide_image{
+    background-image: url(../media/harvey-gibson-498362-unsplash.jpg);
+  }
