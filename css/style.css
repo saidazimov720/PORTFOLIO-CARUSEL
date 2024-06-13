@@ -116,3 +116,8 @@
     z-index: -1;
     pointer-events: none;
 }
+
+ms.titles{
+    position: relative;
+    overflow: hidden;
+}
