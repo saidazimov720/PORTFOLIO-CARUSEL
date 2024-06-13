@@ -80,4 +80,11 @@
     height: 240px;
     max-width: 100%;
   }
-  
+
+  .ms--numbers.ms-container--horizontal ms.track{
+    left: calc(50% - 120px);
+  }
+
+  .ms--numbers.ms-container--horizontal .ms-slide{
+    display: inline-flex;
+  }
