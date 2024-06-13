@@ -18,5 +18,10 @@
 }
 
 .ms--images .ms-track{
-    
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
