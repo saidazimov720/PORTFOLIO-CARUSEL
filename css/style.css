@@ -36,3 +36,11 @@
     user-select: none;
 }
 
+.ms--images {
+    left: calc(50% - 280px);
+  }
+
+  .ms--images .ms--images.ms-container--horizontal .ms-track{
+    left: -70px;
+  }
+  
