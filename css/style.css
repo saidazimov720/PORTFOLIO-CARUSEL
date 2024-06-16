@@ -138,3 +138,20 @@ max-height: 100%;
   top: auto;
   bottom: calc(50% - 85px);
 }
+
+.ms--titles .ms--container-vertical .ms-slide{
+  display: flex;
+}
+
+.ms--titles .ms-track{
+  display: flex;
+  position: absolute;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ms--titles .ms-slide{
+  align-items: center;
+}
