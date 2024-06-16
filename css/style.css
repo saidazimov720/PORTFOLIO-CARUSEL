@@ -169,3 +169,12 @@ max-height: 100%;
   z-index: 1;
   pointer-events: none;
 }
+
+.ms--titles .ms-track{
+  white-space: normal;
+}
+
+.ms--titles .ms-slide{
+  margin: 0;
+  text-shadow: 1px 1px 2px black;
+}
