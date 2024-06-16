@@ -236,3 +236,15 @@ max-height: 100%;
   border-bottom: 2px solid white;
   cursor: pointer;
 }
+
+.pagination{
+  display: flex;
+  position: absolute;
+  left: calc(50% - 420px);
+  top: calc(100%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 1;
+}
