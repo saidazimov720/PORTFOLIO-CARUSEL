@@ -122,24 +122,24 @@
     overflow: hidden;
 }
 
-.ms--titles .ms--container-vertical{
+.ms--titles .ms-container--vertical{
 width: 400px;
 height: 170px;
 max-height: 100%;
 }
 
-.ms--titles .ms--container-vertical .ms-track{
+.ms--titles .ms-container--vertical .ms-track{
     flex-direction: column;
     top: calc(50% - 85px);
 }
 
-.ms--titles .ms--container-vertical .ms--container--reverse .ms-track{
+.ms--titles .ms-container--vertical .ms--container--reverse .ms-track{
   flex-direction: column-reverse;
   top: auto;
   bottom: calc(50% - 85px);
 }
 
-.ms--titles .ms--container-vertical .ms-slide{
+.ms--titles .ms-container--vertical .ms-slide{
   display: flex;
 }
 
@@ -184,14 +184,17 @@ max-height: 100%;
   overflow: hidden;
 }
 
-.ms--links .ms--container-vertical{
+.ms--links .ms-container--vertical{
   width: 120px;
   height: 60px;
   max-width: 100px;
 }
 
-.ms--links .ms--container-vertical .ms-track{
+.ms--links .ms-container--vertical .ms-track{
   flex-direction: column;
   top: calc(50% - 30px);
 }
 
+.ms--links .ms-container--vertical .ms-slide{
+  display: flex;
+}
