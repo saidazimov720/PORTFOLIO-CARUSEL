@@ -154,4 +154,11 @@ max-height: 100%;
 
 .ms--titles .ms-slide{
   align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 170px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
+
