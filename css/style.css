@@ -218,3 +218,14 @@ max-height: 100%;
   -ms-user-select: none;
   user-select: none;
 }
+
+.ms--links{
+  position: absolute;
+  left: calc(50% - 420px);
+  top: calc(50% + 105px);
+  z-index: 1;
+}
+
+.ms--links .ms-track{
+  white-space: normal;
+}
