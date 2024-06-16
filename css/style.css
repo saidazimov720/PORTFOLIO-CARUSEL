@@ -162,3 +162,10 @@ max-height: 100%;
   user-select: none;
 }
 
+.ms-slides{
+  position: absolute;
+  left: calc(50% - 420px);
+  top: calc(50% - 85px);
+  z-index: 1;
+  pointer-events: none;
+}
