@@ -229,3 +229,10 @@ max-height: 100%;
 .ms--links .ms-track{
   white-space: normal;
 }
+
+.ms--links .ms-slide__link{
+  font-weight: 600;
+  padding: 5px 0 8px;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
